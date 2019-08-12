@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "mlaughlin70-magic-eight-ball",
+    "name": "magic-eight-ball",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
