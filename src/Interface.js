@@ -61,7 +61,7 @@ class Interface extends Component{
                         <button onClick={this.ask}>Ask the magic eight ball!</button>
                     </p>
                     <p>
-                        <h1>{answer}</h1>
+                        <h2>{answer}</h2>
                     </p>
                     
             </div>
