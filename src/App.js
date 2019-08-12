@@ -10,7 +10,7 @@ class App extends Component{
     return (
       <div className="App">
         <h1>Welcome To The Magic Eight Ball App!</h1>
-        <img src={eightBall}/>
+        <img src={eightBall} alt={"Magic Eight Ball"}/>
         <Interface/>
       </div>
     );
