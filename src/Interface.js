@@ -55,15 +55,14 @@ class Interface extends Component{
 
         return(
             <div>
-               <h2>Enter your question below: </h2>
+               <h1>Enter your question below: </h1>
                     <input value={this.state.input} onChange={this.handleChange}></input>
                     <p>
                         <button onClick={this.ask}>Ask the magic eight ball!</button>
                     </p>
-                    <p>
-                        <h2>{answer}</h2>
-                    </p>
                     
+                        <h3>{answer}</h3>
+                       
             </div>
         )
     }
