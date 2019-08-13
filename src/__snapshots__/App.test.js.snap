@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Welcome To The Magic Eight Ball App!
+  </h1>
+  <img
+    alt="Magic Eight Ball"
+    src="eightBall.png"
+  />
+  <div>
+    <h1>
+      Enter your question below: 
+    </h1>
+    <input
+      onChange={[Function]}
+      value=""
+    />
+    <p>
+      <button
+        onClick={[Function]}
+      >
+        Ask the magic eight ball!
+      </button>
+    </p>
+    <h3 />
+  </div>
+</div>
+`;
